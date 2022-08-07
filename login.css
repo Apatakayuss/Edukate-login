@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+main{
+    background-color: rgb(235, 208, 235);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.image-section{
+    place-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 9%;
+    width: 75%;
+}  
+#heading-text{
+    margin-left: 70px; 
+    padding-top: 40px;
+    font-size: 3rem;
+}
+#heading-subtext{
+    margin-left: 70px;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.form-section{
+    width: 600px;
+    background-color: #fff;
+    padding: 40px 30px;;
+    place-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    margin-top: 7%;
+    border-radius: 8px;
+    margin-bottom: 9%;
+}
+p{
+    padding: 5px;
+    margin: 5px auto;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+input{
+    width: 250px;
+    padding: 9px;
+    margin: 8px auto;
+}
+input:hover{
+    border: 1px solid purple;
+}  
+a{
+    text-decoration: none;
+}
+p{
+    font-size: .8rem;
+}
+
+#checkbox{
+    align-self: flex-start;
+    justify-content: flex-start;
+    width: 50px;
+    height: 18px;
+    padding-top: 4px;
+    cursor: pointer;
+    padding-left: -6px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 5px 10px;
+    margin: 15px auto;
+    place-items: center;
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    border: none;
+    background-color: purple;
+    border-radius: 4px;
+    margin: 30px 180px;
+    cursor: pointer;
+}
+label{
+    font-size: .8rem;
+}
